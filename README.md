@@ -1,11 +1,11 @@
 ﻿# Upozornění
 
-Jedná se o repozitář sloužící především k otestování řídících algoritmů na robotické platformě založené na RC autíčku.  Repozitář obsahuje zároveň [f1tenth_system](https://github.com/f1tenth/f1tenth_system) od [F1TENTH](https://f1tenth.org/) který zde slouží k základnímu nastavení robotu a zároveň obsahuje systém lokalizace [particle_filter](https://github.com/mit-racecar/particle_filter).
+Jedná se o repozitář sloužící především k otestování řídících algoritmů na robotické platformě založené na RC autíčku.  Repozitář obsahuje zároveň [f1tenth_system](https://github.com/f1tenth/f1tenth_system) od [F1TENTH](https://f1tenth.org/), který zde slouží k základnímu nastavení robotu a zároveň obsahuje systém lokalizace [particle_filter](https://github.com/mit-racecar/particle_filter).
 
-# Nastavení pro otestování v simulátoru
+# Nastavení pro otestování
 
 Pro zprovoznění je zapotřebí mít minimálně takovou robotickou platformu, která bude postavena podle [návodu](https://f1tenth.org/build.html) na sestavení autonomního závodního robota od [F1TENTH](https://f1tenth.org/). 
-Robot musí mít nainstalován operační systém Linux a ROS Melodic. Repositář už obsahuje workspace, tudíž stačí pouze nastavit samotný mikropočítač a nainstalovat ROS a popřípadě nastavit regulátor VESC. Po stažení bude nejspíše potřeba nainstalovat navíc nějaké ROS balíčky. Ty se nainstalují pro ROS Melodic pomocí příkazů v terminálu:
+Na mikropočítači NVIDIA Jetson TX2 musí být tak nainstalován JetPack SDK a následně ROS Melodic. Repositář už obsahuje workspace, tudíž stačí pouze nastavit samotný mikropočítač a nainstalovat ROS a popřípadě nastavit regulátor VESC. Po stažení bude nejspíše potřeba nainstalovat navíc nějaké ROS balíčky. Ty se nainstalují pro ROS Melodic pomocí příkazů v terminálu:
 Poté se balíčky jednoduše nainstalují konkrétně pro ROS Melodic pomocí příkazů v terminálu:
 ```
 $ sudo apt-get update
